@@ -7,3 +7,5 @@ mlflow
 pytest
 fastapi
 uvicorn
+mlflow
+pytest
