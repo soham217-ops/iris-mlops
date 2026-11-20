@@ -25,5 +25,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Generate Iris dataset
+        run: python prepare_data.py
+
       - name: Run tests
         run: pytest -v
